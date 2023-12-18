@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style type="text/css">
+	@font-face {
+		font-family	: "muhFont";
+		src		: url("/Users/mkb/myc0de/muhsite/muhFont.otf");
+	}
+	@font-face {
+		font-family	: "listFont";
+		src		: url("/Users/mkb/myc0de/muhsite/listFont.otf");
+	}
+
+	html, body {
+		width		: 100%;
+		height		: 100%;
+	}
+
+	* {
+		box-sizing	: border-box;
+		margin		: 0;
+		padding		: 0;
+	}
+	
+	main {
+		width		: 100%;
+		height		: 90vh;
+	}
+	
+	body { 
+		background-color: linear-gradient(to bottom, black, blueviolet);
+	}
+	
+	.head-font {
+		padding		: 2vw;
+		border-bottom	: 1vh double black;
+		border-radius	: 2vw;
+		text-align	: center;
+		font-family	: "muhFont";
+		font-size	: 10vh;	
+		letter-spacing	: 2.5vh;
+	}
+	.list-font {
+		font-family: "listFont";
+	}
+
+	header, section, h1, main, body, html { 
+		display		: flex; 
+		justify-content	: center; 
+		align-items	: center;
+		flex-direction	: column;
+	}
+	
+	section {
+		padding		: 2vw;
+		border		: 1vh solid black;
+		border-radius	: 50vh;
+	}
+	li > a {
+		font-family	: "listFont"
+	}
+
+    </style>
+</head>
+<body>
+<header>
+    <h1 class="head-font">TZARAO</h1>
+</header>
+<main>
+	<section>
+		<ul>
+			<li><a>bit-reduced colors</a></li>
+			<li><a>interpolation</a></li>
+			<li><a>raycasting</a></li>
+		</ul>
+	</section>
+</main>
+<footer>
+
+</footer>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
